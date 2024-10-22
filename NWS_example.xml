@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.7bb95183961570d58f4c3df355d7eeda7ecb1876.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2024-09-15T13:19:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.475aa314de90f267f5f27859921766e5c8180028.001.1,2024-09-15T06:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6d5369ea47141482a19d39acd99e7e5984e85bec.001.1,2024-09-15T07:49:00-05:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FLS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FLW</value>
+        </eventCode>
+        <effective>2024-09-15T13:19:00-05:00</effective>
+        <onset>2024-09-15T13:19:00-05:00</onset>
+        <expires>2024-09-16T01:30:00-05:00</expires>
+        <senderName>NWS Huntsville AL</senderName>
+        <headline>Flood Warning issued September 15 at 1:19PM CDT until September 17 at 12:24AM CDT by NWS Huntsville AL</headline>
+        <description>...The Flood Warning is extended for the following rivers in
+Alabama...
+
+Big Nance Creek at Courtland affecting Lawrence County.
+
+* WHAT...Major flooding is occurring and major flooding is forecast.
+
+* WHERE...Big Nance Creek at Courtland.
+
+* WHEN...Until early Tuesday morning.
+
+* IMPACTS...At 20.0 feet, Water is approaching homes south of
+downtown Courtland...with several streets impassible. Water
+reaches the underside of the bridge at Old Highway 20 in Courtland.
+
+* ADDITIONAL DETAILS...
+- At 11:00 AM CDT Sunday the stage was 19.8 feet.
+- Bankfull stage is 12.0 feet.
+- Recent Activity...The maximum river stage in the 24 hours
+ending at 11:00 AM CDT Sunday was 19.8 feet.
+- Forecast...The river is expected to rise to a crest of 21.5
+feet just after midnight tonight. It will then fall below
+flood stage tomorrow evening.
+- Flood stage is 14.0 feet.
+- Flood History...This crest compares to a previous crest of
+21.5 feet on 02/13/1948.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>
+
+Motorists should not attempt to drive around barricades or drive
+cars through flooded areas.
+
+Even 6 inches of fast-moving flood water can knock you off your feet
+and a depth of 2 feet will float your car. Never try to walk, swim,
+or drive through such swift water. If you come upon flood waters,
+stop, turn around and go another way.
+
+Additional information is available at www.weather.gov.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSHUN</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS84 KHUN 151819</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD WARNING NOW IN EFFECT UNTIL EARLY TUESDAY MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KHUN.FL.W.0012.000000T0000Z-240917T0524Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2024-09-17T00:24:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.440ceef9c37d92c85c6a0e0cae3eecf35e0a31c3.001.1,2024-09-14T22:08:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.29943afec2f4599071ca4b268475845c4dc43322.001.1,2024-09-14T20:37:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8974dd7226b0b7db9b1db15ee5c2dfef387e42ee.001.1,2024-09-14T10:24:00-05:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Lawrence, AL</areaDesc>
+            <polygon>34.79,-87.42 34.76,-87.33 34.68,-87.25 34.57,-87.28 34.58,-87.41 34.79,-87.42</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>001079</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ALC079</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
